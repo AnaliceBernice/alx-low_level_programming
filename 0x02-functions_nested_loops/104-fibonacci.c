@@ -35,22 +35,22 @@ int main(void)
 
 	while (i <= 98)
 	{
-		if (f1o > 0)
-			printf("%lu", flo);
-		initial0s = numLength(mx) - 1 - numLength(f1);
-		while (f1o > 0 && initial0s > 0)
+		if (f10 > 0)
+			printf("%lu", fl0);
+		initials0s = numLength(mx) - 1 - numLength(f1);
+		while (f10 > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
-			initial0s--;
+			initials0s--;
 		}
 		printf("%lu", f1);
 
 		tmp = (f1 + f2) % mx;
-		tmpo = f1o + f2o + (f1 + f2) / mx;
+		tmpo = f10 + f20 + (f1 + f2) / mx;
 		f1 = f2;
-		f1o = f2o;
+		f10 = f20;
 		f2 = tmp;
-		f2o = tmpo;
+		f20 = tmpo;
 
 		if (i != 98)
 			printf(", ");
