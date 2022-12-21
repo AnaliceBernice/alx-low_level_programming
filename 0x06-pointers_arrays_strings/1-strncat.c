@@ -3,8 +3,8 @@
 
 /**
  * _strncat - concatenates two strings
- * @src: first pointer
- * @dest: second pointer
+ * @dest: first pointer
+ * @src: second pointer
  * @n: number of bytes to concatenate
  * Return: a pointer to the resulting string dest
  */
@@ -21,7 +21,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	for (j = 0; j < n && src[j] != '\0'; j++, length++)
 	{
-		design[length] = src[j];
+		dest[length] = src[j];
 	}
 
 	dest[length] = '\0';
